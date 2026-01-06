@@ -16,8 +16,24 @@
             "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--0 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--0 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--0 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -85,8 +101,24 @@
             "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--1 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--1 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--1 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -154,8 +186,24 @@
             "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--2 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--2 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--2 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -223,8 +271,24 @@
             "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--3 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--3 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--3 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -292,8 +356,24 @@
             "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--4 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--4 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--4 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -361,8 +441,24 @@
             "selector": ".icon-c--5 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--5 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--5 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--5 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--5 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--5 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -430,8 +526,24 @@
             "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--6 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--6 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--6 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -499,8 +611,24 @@
             "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--7 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--7 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--7 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -568,8 +696,24 @@
             "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--8 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--8 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--8 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -637,8 +781,24 @@
             "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--9 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--9 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--9 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -706,8 +866,24 @@
             "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--10 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--10 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--10 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -775,8 +951,24 @@
             "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--11 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--11 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--11 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -844,8 +1036,24 @@
             "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > p:nth-child(2) > a:nth-child(1)",
             "type": "string"
         },
-        "STAIN": {
-            "selector": ".icon-c--12 > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)",
+        "STAIN_1": {
+            "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_1_COLOR": {
+            "selector": ".icon-c--12 > div:nth-child(3)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "type": "string"
+        },
+        "STAIN_2": {
+            "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-child(1)",
+            "type": "string"
+        },
+        "STAIN_2_COLOR": {
+            "selector": ".icon-c--12 > div:nth-child(4) > div:nth-child(1)",
+            "attribute": "style",
+            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
