@@ -4,6 +4,10 @@
             "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -71,6 +75,10 @@
     "OFFHAND": {
         "NAME": {
             "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -142,6 +150,10 @@
             "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -209,6 +221,10 @@
     "BODY": {
         "NAME": {
             "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -280,6 +296,10 @@
             "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -347,6 +367,10 @@
     "WAIST": {
         "NAME": {
             "selector": ".icon-c--5 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--5 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -418,6 +442,10 @@
             "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -485,6 +513,10 @@
     "FEET": {
         "NAME": {
             "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -556,6 +588,10 @@
             "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -623,6 +659,10 @@
     "NECKLACE": {
         "NAME": {
             "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -694,6 +734,10 @@
             "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -761,6 +805,10 @@
     "RING1": {
         "NAME": {
             "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "DB_LINK": {
@@ -832,6 +880,10 @@
             "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
             "type": "string"
         },
+        "ICON_LINK": {
+            "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
+            "type": "string"
+        },
         "DB_LINK": {
             "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
             "type": "string"
@@ -899,6 +951,10 @@
     "SOULCRYSTAL": {
         "NAME": {
             "selector": ".icon-c--13 > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "type": "string"
+        },
+        "ICON_LINK": {
+            "selector": ".icon-c--13 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > img:nth-of-type(2)",
             "type": "string"
         },
         "CLASS_LIST": {
