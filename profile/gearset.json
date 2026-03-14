@@ -31,7 +31,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--0 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -41,7 +41,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--0 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -124,7 +124,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--1 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -134,7 +134,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--1 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -217,7 +217,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--2 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -227,7 +227,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--2 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -310,7 +310,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--3 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -320,7 +320,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--3 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -403,7 +403,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--4 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -413,7 +413,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--4 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -496,7 +496,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--6 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -506,7 +506,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--6 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -589,7 +589,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--7 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -599,7 +599,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--7 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -704,7 +704,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--8 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -714,7 +714,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--8 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -797,7 +797,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--9 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -807,7 +807,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--9 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -890,7 +890,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--10 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -900,7 +900,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--10 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -983,7 +983,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--11 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -993,7 +993,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--11 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
@@ -1076,7 +1076,7 @@
         "STAIN_1_COLOR": {
             "selector": ".icon-c--12 > div:nth-child(3)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "STAIN_2": {
@@ -1086,7 +1086,7 @@
         "STAIN_2_COLOR": {
             "selector": ".icon-c--12 > div:nth-child(4) > div:nth-child(1)",
             "attribute": "style",
-            "regex": "background-color: #(?P<Name>[0-9a-fA-F]+);",
+            "regex": "background(?:-color)?: #(?P<Name>[0-9a-fA-F]+);",
             "type": "string"
         },
         "MATERIA_1": {
