@@ -90,6 +90,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--0 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "OFFHAND": {
@@ -182,6 +188,12 @@
         },
         "ITEM_LEVEL": {
             "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+            "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--1 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
             "type": "string"
         }
     },
@@ -276,6 +288,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--2 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "BODY": {
@@ -368,6 +386,12 @@
         },
         "ITEM_LEVEL": {
             "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+            "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--3 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
             "type": "string"
         }
     },
@@ -462,6 +486,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--4 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "LEGS": {
@@ -555,6 +585,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--6 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "FEET": {
@@ -647,6 +683,12 @@
         },
         "ITEM_LEVEL": {
             "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+            "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--7 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
             "type": "string"
         }
     },
@@ -763,6 +805,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--8 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "NECKLACE": {
@@ -855,6 +903,12 @@
         },
         "ITEM_LEVEL": {
             "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+            "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--9 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
             "type": "string"
         }
     },
@@ -949,6 +1003,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--10 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "RING1": {
@@ -1042,6 +1102,12 @@
         "ITEM_LEVEL": {
             "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
             "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--11 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
+            "type": "string"
         }
     },
     "RING2": {
@@ -1134,6 +1200,12 @@
         },
         "ITEM_LEVEL": {
             "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(3)",
+            "type": "string"
+        },
+        "RARITY": {
+            "selector": ".icon-c--12 > .db-tooltip > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h2:nth-child(2)",
+            "attribute": "class",
+            "regex": ".*txt-rarity_(?P<Name>\\w+).*",
             "type": "string"
         }
     },
