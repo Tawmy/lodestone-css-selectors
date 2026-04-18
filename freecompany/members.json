@@ -16,7 +16,7 @@
             "selector": ".entry__bg",
             "attribute": "href",
             "regex": "/lodestone/character/(?P<ID>\\d*)/",
-            "type": {
+            "types": {
               "ID": "integer"
             }
         },
@@ -37,7 +37,7 @@
             "selector": ".entry__freecompany__info > .js__tooltip",
             "attribute": "data-tooltip",
             "regex": "/ (?P<RankName>.+)",
-            "type": {
+            "types": {
               "RankName": "string"
             }
         },
@@ -49,7 +49,7 @@
         "SERVER": {
             "selector": ".entry__world",
             "regex": "(?P<World>\\w*)\\s+\\[(?P<DC>\\w*)\\]",
-            "type": {
+            "types": {
               "World": "string",
               "DC": "string"
             }
@@ -58,7 +58,7 @@
     "PAGE_INFO": {
         "selector": "ul.btn__pager:nth-child(4) > li:nth-child(3)",
         "regex": "\\D*(?P<CurrentPage>\\d+)\\D*(?P<NumPages>\\d+)",
-        "type": {
+        "types": {
           "CurrentPage": "integer",
           "NumPages": "integer"
         }

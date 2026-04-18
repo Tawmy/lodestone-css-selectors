@@ -49,7 +49,7 @@ There are two formats for type:
 
 ```json
 {
-    "type": {
+    "types": {
         "Server": "string",
         "DC": "string"
     }

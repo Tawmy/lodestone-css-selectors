@@ -29,7 +29,7 @@
             "selector": ".entry__freecompany__info > .js__tooltip",
             "attribute": "data-tooltip",
             "regex": "/ (?P<RankName>.+)",
-            "type": {
+            "types": {
               "RankName": "string"
             }
         },
@@ -41,7 +41,7 @@
         "SERVER": {
             "selector": ".entry__world",
             "regex": "(?P<World>\\w*)\\s+\\[(?P<DC>\\w*)\\]",
-            "type": {
+            "types": {
               "World": "string",
               "DC": "string"
             }

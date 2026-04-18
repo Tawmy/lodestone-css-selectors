@@ -11,7 +11,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(9) > li:nth-child(1)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "type": {
+            "types": {
               "Status": "string"
             }
         },
@@ -30,7 +30,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(9) > li:nth-child(2)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "type": {
+            "types": {
               "Status": "string"
             }
         },
@@ -49,7 +49,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(9) > li:nth-child(3)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "type": {
+            "types": {
               "Status": "string"
             }
         },
@@ -68,7 +68,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(9) > li:nth-child(4)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "type": {
+            "types": {
               "Status": "string"
             }
         },
@@ -87,7 +87,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(9) > li:nth-child(5)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "type": {
+            "types": {
               "Status": "string"
             }
         },
