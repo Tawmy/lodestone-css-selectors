@@ -50,7 +50,7 @@
         },
         "ACTIVE": {
             "selector": "li.entry__freecompany__fc-active:nth-child(4)",
-            "regex": "Active:\\s+(?P<State>\\w*)",
+            "regex": "Active:\\s+(?P<State>.*)",
             "type": "string"
         },
         "ACTIVE_MEMBERS": {
