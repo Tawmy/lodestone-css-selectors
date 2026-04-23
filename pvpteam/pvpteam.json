@@ -10,7 +10,7 @@
     "FORMED": {
         "selector": ".entry__pvpteam__data--formed > script",
         "regex": ".*ldst_strftime\\((?P<Timestamp>\\d*)",
-        "types": {
+        "type": {
           "Timestamp": "integer"
         }
     },

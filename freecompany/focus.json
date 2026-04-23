@@ -17,7 +17,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(1)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -36,7 +36,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(2)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -55,7 +55,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(3)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -74,7 +74,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(4)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -93,7 +93,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(5)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -112,7 +112,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(6)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -131,7 +131,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(7)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -150,7 +150,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(8)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
@@ -169,7 +169,7 @@
             "selector": "ul.freecompany__focus_icon:nth-child(7) > li:nth-child(9)",
             "attribute": "class",
             "regex": "freecompany__focus_icon--(?P<Status>off)",
-            "types": {
+            "type": {
               "Status": "string"
             }
         }
